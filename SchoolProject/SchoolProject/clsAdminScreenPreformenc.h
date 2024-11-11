@@ -22,6 +22,7 @@ private:
 	{
 		cout << setw(37) << left << "" << "\n\tPress any key to go back to Main Menue...\n";
 		system("pause>0");
+		ShowMainMenue();
 	}
 	static void _ShowScreenUsersAdmin()
 	{
@@ -52,7 +53,7 @@ private:
 		}
 		case clsAdminScreenPreformenc::MainMenue:
 		{
-
+			
 		}
 
 		}
@@ -66,7 +67,8 @@ public:
 		system("cls");
 		_DrawScreenForSystem("\t     Manage Screen");
 		_Getusername(Users.GetUserName());
-		cout << setw(101) << "" << "===========================================\n";
+		cout << endl;
+		cout << setw(37) << "" << "===========================================\n";
 		cout << setw(37) << "" << "\t\t\tMain Menue\n";
 		cout << setw(37) << "" << "===========================================\n";
 		cout << setw(37) << "" << "\t[1] Manage Users\n";

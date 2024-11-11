@@ -74,7 +74,8 @@ public:
 		system("cls");
 		_DrawScreenForSystem("\t    Colloge Screen");
 		_Getusername(Teachers.IDTEACHERS());
-		cout << setw(101) << "" << "===========================================\n";
+		cout << endl;
+		cout << setw(37) << left << "" << "===========================================\n";
 		cout << setw(37) << left << "" << "\t\t\tMain Menue\n";
 		cout << setw(37) << left << "" << "===========================================\n";
 		cout << setw(37) << left << "" << "\t[1] Show List itself Teacher.\n";

@@ -114,7 +114,8 @@ public:
 		system("cls");
 		_DrawScreenForSystem("\t    Users Screen");
 		_Getusername(Users.GetUserName());
-		cout << setw(101) << "" << "===========================================\n";
+		cout << endl;
+		cout << setw(37) << left << "" << "===========================================\n";
 		cout << setw(37) << left << "" << "\t\t\tMain Menue\n";
 		cout << setw(37) << left << "" << "===========================================\n";
 		cout << setw(37) << left << "" << "\t[1] Add New Users.\n";

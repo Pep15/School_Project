@@ -27,7 +27,7 @@ private:
 		_vStudents = clsString::Split(Line, Speroter);
 
 		return clsStudentSystem(Mode::UpdateMode, _vStudents[0], _vStudents[1], _vStudents[2], _vStudents[3]
-			, _vStudents[4], _vStudents[5], _vStudents[6], _vStudents[7], _vStudents[8], clsUtil::DecryptText(_vStudents[9] , 2), _vStudents[10]);
+			, _vStudents[4], _vStudents[5], _vStudents[6], _vStudents[7], _vStudents[8],_vStudents[9] , _vStudents[10]);
 	} 
 	static string _ConvertStudentsObjectToLine(clsStudentSystem Students, string Speroter = "#//#")
 	{
@@ -41,7 +41,7 @@ private:
 		DataStudents += Students.NumberOfHouse + Speroter;
 		DataStudents += Students.NumberOfFather + Speroter;
 		DataStudents += Students.NumberOfMother + Speroter;
-		DataStudents += clsUtil::EncryptText(Students.Password , 2) + Speroter;
+		DataStudents += Students.Password + Speroter;
 		DataStudents += Students.Age;
 
 		return DataStudents;

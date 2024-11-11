@@ -74,17 +74,18 @@ private:
 			_GoBackToMainMenue();
 			break;
 		}
-		case clsPerfomanceStudent::eList:
-		{
-			system("cls");
-			_ShowListScreenStudents();
-			_GoBackToMainMenue();
-			break;
-		}
 		case clsPerfomanceStudent::eFind:
 		{
 			system("cls");
 			_ShowFindStudents();
+			_GoBackToMainMenue();
+			break;
+			
+		}
+		case clsPerfomanceStudent::eList:
+		{
+			system("cls");
+			_ShowListScreenStudents();
 			_GoBackToMainMenue();
 			break;
 		}
@@ -104,7 +105,8 @@ public:
 		system("cls");
 		_DrawScreenForSystem("\t    Students Screen");
 		_Getusername(Teachers.IDTEACHERS());
-		cout << setw(101) << "" << "===========================================\n";
+		cout << endl;
+		cout << setw(37) << left << "" << "===========================================\n";
 		cout << setw(37) << left << "" << "\t\t\tMain Menue\n";
 		cout << setw(37) << left << "" << "===========================================\n";
 		cout << setw(37) << left << "" << "\t[1] Add New Students.\n";

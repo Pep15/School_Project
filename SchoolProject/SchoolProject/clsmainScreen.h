@@ -118,6 +118,8 @@ public:
 
 		system("cls");
 		_DrawScreenForSystem("\tTeachers Screen");
+		_Getusername(Users.GetUserName());
+		cout << endl;
 		cout << setw(37) << left << "" << "===========================================\n";
 		cout << setw(37) << left << "" << "\t\t\tMain Menue\n";
 		cout << setw(37) << left << "" << "===========================================\n";
