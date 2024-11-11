@@ -43,6 +43,9 @@
     <Filter Include="Header Files\CoreSystems\StudentsRegustration">
       <UniqueIdentifier>{d55db123-15eb-4329-86b1-062135e8f4c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\LogsScreen">
+      <UniqueIdentifier>{ab6f9eb5-6e2f-4d34-8b88-b15a2364d0dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SchoolProject.cpp">
@@ -50,9 +53,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="clsScreen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="clsAddNewTeachers.h">
       <Filter>Header Files\CoreSystems\TeacherSystemCore</Filter>
     </ClInclude>
@@ -79,9 +79,6 @@
     </ClInclude>
     <ClInclude Include="clsString.h">
       <Filter>Header Files\Lib</Filter>
-    </ClInclude>
-    <ClInclude Include="clsPerson.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="clsUtil.h">
       <Filter>Header Files\Lib</Filter>
@@ -124,9 +121,6 @@
     </ClInclude>
     <ClInclude Include="clsSchoolSystem.h">
       <Filter>Header Files\CoreSystems\TeacherSystemCore</Filter>
-    </ClInclude>
-    <ClInclude Include="clsLogsScreen.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="clsPointerTeachersScreen.h">
       <Filter>Header Files\CoreSystems\TeacherSystemCore\Teachersitself</Filter>
@@ -195,6 +189,15 @@
       <Filter>Header Files\CoreSystems\StudentsRegustration</Filter>
     </ClInclude>
     <ClInclude Include="clsPerfomanceRegstrationSubjects.h">
+      <Filter>Header Files\MainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsScreen.h">
+      <Filter>Header Files\MainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsLogsScreen.h">
+      <Filter>Header Files\LogsScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPerson.h">
       <Filter>Header Files\MainScreen</Filter>
     </ClInclude>
   </ItemGroup>

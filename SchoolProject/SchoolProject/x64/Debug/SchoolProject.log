@@ -1,39 +1,39 @@
 ﻿  SchoolProject.cpp
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsString.h(36,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsString.h(36,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'SchoolProject.cpp')
   
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsString.h(41,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsString.h(41,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'SchoolProject.cpp')
   
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsString.h(53,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsString.h(53,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'SchoolProject.cpp')
   
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsString.h(190,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsString.h(190,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'SchoolProject.cpp')
   
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsString.h(321,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsString.h(321,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'SchoolProject.cpp')
   
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsString.h(369,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsString.h(369,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'SchoolProject.cpp')
   
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsUtil.h(62,5): warning C4102: 'defualt': unreferenced label
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsUtil.h(62,5): warning C4102: 'defualt': unreferenced label
   (compiling source file 'SchoolProject.cpp')
   
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsAdminSchoolSystem.h(145,9): warning C4240: nonstandard extension used: access to 'clsAdminSchoolSystem::stLogsUsers' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsAdminSchoolSystem.h(145,9): warning C4240: nonstandard extension used: access to 'clsAdminSchoolSystem::stLogsUsers' now defined to be 'public', previously it was defined to be 'private'
   (compiling source file 'SchoolProject.cpp')
-      C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsAdminSchoolSystem.h(12,9):
+      C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsAdminSchoolSystem.h(12,9):
       see declaration of 'clsAdminSchoolSystem::stLogsUsers'
   
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsSystemSubjects.h(236,9): warning C4240: nonstandard extension used: access to 'clsSystemSubjects::stRegustrtion' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsSystemSubjects.h(236,9): warning C4240: nonstandard extension used: access to 'clsSystemSubjects::stRegustrtion' now defined to be 'public', previously it was defined to be 'private'
   (compiling source file 'SchoolProject.cpp')
-      C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsSystemSubjects.h(15,9):
+      C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsSystemSubjects.h(15,9):
       see declaration of 'clsSystemSubjects::stRegustrtion'
   
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsStudentSystem.h(249,1): warning C4715: 'clsStudentSystem::FindByEmailIDStudentsPassword': not all control paths return a value
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsSystemSubjects.h(408,1): warning C4715: 'clsSystemSubjects::FindRegstration': not all control paths return a value
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsSchoolSystem.h(351,1): warning C4715: 'clsSchoolSystem::Save': not all control paths return a value
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsAdminSchoolSystem.h(309,1): warning C4715: 'clsAdminSchoolSystem::Save': not all control paths return a value
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsStudentSystem.h(313,1): warning C4715: 'clsStudentSystem::Save': not all control paths return a value
-C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\SchoolProject\clsSystemSubjects.h(466,1): warning C4715: 'clsSystemSubjects::Save': not all control paths return a value
-  SchoolProject.vcxproj -> C:\Users\moath\Desktop\C++\Trining\Project_Students\SchoolProject\x64\Debug\SchoolProject.exe
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsStudentSystem.h(249,1): warning C4715: 'clsStudentSystem::FindByEmailIDStudentsPassword': not all control paths return a value
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsSystemSubjects.h(408,1): warning C4715: 'clsSystemSubjects::FindRegstration': not all control paths return a value
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsAdminSchoolSystem.h(309,1): warning C4715: 'clsAdminSchoolSystem::Save': not all control paths return a value
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsSchoolSystem.h(351,1): warning C4715: 'clsSchoolSystem::Save': not all control paths return a value
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsStudentSystem.h(313,1): warning C4715: 'clsStudentSystem::Save': not all control paths return a value
+C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\SchoolProject\clsSystemSubjects.h(466,1): warning C4715: 'clsSystemSubjects::Save': not all control paths return a value
+  SchoolProject.vcxproj -> C:\Users\moath\Desktop\C++\Trining\School_Project\SchoolProject\x64\Debug\SchoolProject.exe

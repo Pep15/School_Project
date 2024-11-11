@@ -2,6 +2,7 @@
 #include "ClsLoginScreen.h"
 #include "clsAdminScreenPreformenc.h"
 #include "clsPerfomanceSubject.h"
+#include "clsScreenViewTable.h"
 using namespace std;
 int main()
 {
@@ -11,6 +12,8 @@ int main()
 		ClsLoginScreen::ShowScreenLogin();
 		
 	}
+	
+	
 	
 	
 	return 0;

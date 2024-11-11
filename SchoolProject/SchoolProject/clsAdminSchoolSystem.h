@@ -35,7 +35,7 @@ private:
 		_vAdmin = clsString::Split(Line, Sepratoer);
 
 
-		return clsAdminSchoolSystem(eMode::eUpdateMode, _vAdmin[0], _vAdmin[1], _vAdmin[2], _vAdmin[3], _vAdmin[4], _vAdmin[5], stoi(_vAdmin[6]));
+		return clsAdminSchoolSystem(eMode::eUpdateMode, _vAdmin[0], _vAdmin[1] , _vAdmin[2], _vAdmin[3], _vAdmin[4], clsUtil::DecryptText(_vAdmin[5],2),  stoi(_vAdmin[6]));
 	}
 	static string _ConvertUserObjectToLine(clsAdminSchoolSystem User, string Sepratoer = "#//#")
 	{
@@ -45,7 +45,7 @@ private:
 		DataLine += User.Phone + Sepratoer;
 		DataLine += User.Email + Sepratoer;
 		DataLine += User.GetUserName() + Sepratoer;
-		DataLine += User.Password + Sepratoer;
+		DataLine += clsUtil::EncryptText(User.Password, 2)  + Sepratoer;
 		DataLine += to_string(User.Permessions);
 
 		return DataLine;
@@ -55,7 +55,7 @@ private:
 		string DataLine;
 		DataLine += clsDate::GetSystemDateTimeString() + Sepratoer;
 		DataLine += GetUserName() + Sepratoer;
-		DataLine += Password + Sepratoer;
+		DataLine += clsUtil::EncryptText(Password , 2) + Sepratoer;
 		DataLine += to_string(Permessions);
 		return DataLine;
 	}

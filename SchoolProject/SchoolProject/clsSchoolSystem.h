@@ -26,7 +26,7 @@ private:
 
 		_vTeacher = clsString::Split(Line, Sepretoer);
 		return clsSchoolSystem(enMode::eUpdateMode , _vTeacher[0], _vTeacher[1], _vTeacher[2], _vTeacher[3], _vTeacher[4], _vTeacher[5]
-			, _vTeacher[6], _vTeacher[7], _vTeacher[8] , _vTeacher[9]);
+			, _vTeacher[6], _vTeacher[7], _vTeacher[8] ,clsUtil::DecryptText( _vTeacher[9] , 2));
 	}
 	static string _ConvertTeachrsObjectToLine(clsSchoolSystem Teacher, string Sepretoer = "#//#")
 	{
@@ -40,7 +40,7 @@ private:
 		DataLine += Teacher.Address2 + Sepretoer;
 		DataLine += Teacher.NumberOfHouse + Sepretoer;
 		DataLine += Teacher.IDTEACHERS() + Sepretoer;
-		DataLine += Teacher.Password;
+		DataLine += clsUtil::EncryptText(Teacher.Password , 2);
 
 		return DataLine;
 	}
