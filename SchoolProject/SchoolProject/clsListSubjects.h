@@ -11,12 +11,13 @@ private:
 
 	static void _PrintSubjectRecordLine(clsSystemSubjects::stRegustrtion& Subject)
 	{
+	
 		cout << setw(8) << left << "" << "| " << setw(12) << left << Subject.CodeSubject;
-		cout << "| " << setw(25) << left << Subject.Subjects;
-		cout << "| " << setw(7) << left << Subject.Credits;
-		cout << "| " << setw(8) << left << Subject.Class;
-		cout << "| " << setw(12) << left << Subject.IDTeacher;
-		cout << "| " << setw(20) << left << Subject.NameTeacher << "|";
+		cout << "| " << setw(20) << left << Subject.Subjects;
+		cout << "| " << setw(10) << left << Subject.Credits;
+		cout << "| " << setw(15) << left << Subject.Class;
+		cout << "| " << setw(25) << left << Subject.IDTeacher;
+		cout << "| " << setw(15) << left << Subject.NameTeacher;
 	}
 
 public:
@@ -29,16 +30,18 @@ public:
 		string subTitle = " (" + to_string(_vRegustration.size()) + ") Subject(s).";
 		_DrawScreenForSystem(title, subTitle);
 		_Getusername(Students.GetIDstudents());
-		cout << setw(8) << left << "" << "\n\t______________________________________________________________________________________________________";
-		cout << "\n" << setw(8) << left << "" << "| " << left << setw(12) << "Code"
-			<< "| " << left << setw(25) << "Subject"
-			<< "| " << left << setw(7) << "Credits"
-			<< "| " << left << setw(8) << "Class"
-			<< "| " << left << setw(12) << "Teacher ID"
-			<< "| " << left << setw(20) << "Name Teacher"
-			<< "|";
-		cout << "\n" << setw(8) << left << "" << "\t______________________________________________________________________________________________________";
-		cout << "\n" << endl;
+		cout << setw(8) << left << "" << "\n\t________________________________________________________";
+		cout << "______________________________________________________\n" << endl;
+
+		cout << setw(8) << left << "" << "| " << left << setw(12) << "CodeSubjects";
+		cout << "| " << left << setw(20) << "Subjects";
+		cout << "| " << left << setw(10) << "Credits";
+		cout << "| " << left << setw(15) << "Class";
+		cout << "| " << left << setw(25) << "IDTeacher";
+		cout << "| " << left << setw(25) << "NameTeacher";
+		cout << setw(8) << left << "" << "\n\t________________________________________________________";
+		cout << "______________________________________________________\n" << endl;
+
 		if (_vRegustration.size() == 0)
 		{
 			cout << "\nThere are no subjects on the system!";
@@ -48,10 +51,11 @@ public:
 			for (clsSystemSubjects::stRegustrtion& S : _vRegustration)
 			{
 				_PrintSubjectRecordLine(S);
-				cout << "\n" << setw(5) << left << "" << "\t______________________________________________________________________________________________________";
+				cout << endl;
 			}
 		}
-		cout << setw(8) << left << "" << "\n" << endl;
+		cout << setw(8) << left << "" << "\n\t________________________________________________________";
+		cout << "______________________________________________________\n" << endl;
 	}
 };
 
